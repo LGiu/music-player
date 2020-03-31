@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="customer-api" />
+        <module name="customer-service" />
+        <module name="global" />
+        <module name="musicupload-api" />
+        <module name="music-player" />
+        <module name="listenermusic" />
+        <module name="musicupload-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="customer-api" target="11" />
+      <module name="customer-service" target="11" />
+      <module name="global" target="11" />
+      <module name="listenermusic" target="11" />
+      <module name="listenermusic-service" target="11" />
+      <module name="music-player" target="11" />
+      <module name="musicupload-api" target="11" />
+      <module name="musicupload-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="customer-api" options="-parameters" />
+      <module name="customer-service" options="-parameters" />
+      <module name="global" options="-parameters" />
+      <module name="listenermusic" options="-parameters" />
+      <module name="listenermusic-service" options="-parameters" />
+      <module name="music-player" options="-parameters" />
+      <module name="musicupload-api" options="-parameters" />
+      <module name="musicupload-service" options="-parameters" />
+    </option>
+  </component>
+</project>

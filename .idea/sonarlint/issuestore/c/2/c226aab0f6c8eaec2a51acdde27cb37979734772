@@ -1,0 +1,28 @@
+
+c
+java:S2142<"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Š‡‹‘.
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(­Ü»8Š‡‹‘.
+E
+java:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š‡‹‘.
+B
+java:S21167"%Use "Arrays.toString(array)" instead.(­Ü»8Š‡‹‘.
+c
+java:S21422"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Š‡‹‘.
+f
+java:S21474"DCombine this catch with the one at line 50, which has the same body.(åşŒóùÿÿÿÿ8Š‡‹‘.
+E
+java:S1148="#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š‡‹‘.
+E
+java:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š‡‹‘.
+e
+java:S22597"HA "NullPointerException" could be thrown; "sendResult" is nullable here.(­Ü»8Š‡‹‘.
+n
+java:S2259C"LA "NullPointerException" could be thrown; "consumerRecord" is nullable here.(†¯ğ§üÿÿÿÿ8Š‡‹‘.
+E
+java:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š‡‹‘.
+E
+java:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š‡‹‘.
+E
+java:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š‡‹‘.
+f
+java:S2147>"DCombine this catch with the one at line 60, which has the same body.(åşŒóùÿÿÿÿ8Š‡‹‘.

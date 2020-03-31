@@ -1,0 +1,18 @@
+
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8×äò.
+o
+java:S1128
+"MRemove this unused import 'org.apache.kafka.clients.producer.ProducerRecord'.(ä°«¡üÿÿÿÿ8ôùò.
+e
+java:S1128"HRemove this unused import 'com.fasterxml.jackson.databind.ObjectMapper'.(´‘¨™8¨óóò.
+q
+java:S1128"ORemove this unused import 'com.fasterxml.jackson.core.JsonProcessingException'.(ßÔïÇûÿÿÿÿ8ŠÛıò.
+E
+java:S1148;"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ğª á‘.
+]
+java:S18549";Remove this useless assignment to local variable "aReturn".(“½ó—ûÿÿÿÿ8³ô á‘.
+N
+java:S14819",Remove this unused "aReturn" local variable.(“½ó—ûÿÿÿÿ8³ô á‘.
+q
+java:S1128"TRemove this unused import 'org.springframework.messaging.handler.annotation.SendTo'.(÷æéñ8äò.

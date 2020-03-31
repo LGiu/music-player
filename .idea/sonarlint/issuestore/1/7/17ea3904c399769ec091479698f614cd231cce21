@@ -1,0 +1,9 @@
+
+^
+java:S1128
+"BRemove this unused import 'javax.validation.constraints.NotEmpty'.(ÿÿör8û±—â‘.
+n
+java:S1128"LRemove this unused import 'org.springframework.web.multipart.MultipartFile'.(ôŸœžÿÿÿÿÿ8û±—â‘.
+c
+java:S1128"ARemove this unused import 'javax.validation.constraints.NotNull'.(áç¥ãüÿÿÿÿ8û±—â‘.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( œÃß

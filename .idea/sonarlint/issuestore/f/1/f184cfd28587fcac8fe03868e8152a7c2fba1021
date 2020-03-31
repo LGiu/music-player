@@ -1,0 +1,19 @@
+
+
+java:S1128"]Remove this unused import 'org.springframework.kafka.listener.KafkaMessageListenerContainer'.(ªÌ¥…üÿÿÿÿ8…—‘.
+
+java:S1128"bRemove this unused import 'org.springframework.kafka.listener.ConcurrentMessageListenerContainer'.(²–Åº8…—‘.
+}
+java:S1128"[Remove this unused import 'org.springframework.kafka.config.KafkaListenerContainerFactory'.(‚ÒÜıÿÿÿÿ8…—‘.
+
+java:S1128"eRemove this unused import 'org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory'.(Âàˆ\8…—‘.
+p
+java:S1128"SRemove this unused import 'org.apache.kafka.common.serialization.StringSerializer'.(Ş ¾ş8…—‘.
+o
+java:S1128"MRemove this unused import 'org.apache.kafka.clients.consumer.ConsumerConfig'.(éöò˜üÿÿÿÿ8…—‘.
+u
+java:S1128"SRemove this unused import 'org.springframework.kafka.listener.ContainerProperties'.(İ›ûÿÿÿÿ8…—‘.
+v
+java:S1128"YRemove this unused import 'org.springframework.kafka.requestreply.ReplyingKafkaTemplate'.(²–üŠ8…—‘.
+w
+java:S1128"URemove this unused import 'org.apache.kafka.common.serialization.StringDeserializer'.(ì¶³ùÿÿÿÿ8…—‘.

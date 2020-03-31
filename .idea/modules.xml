@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/customer-api/customer-api.iml" filepath="$PROJECT_DIR$/customer-api/customer-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/global/global.iml" filepath="$PROJECT_DIR$/global/global.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listenermusic/listenermusic.iml" filepath="$PROJECT_DIR$/listenermusic/listenermusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music-player.iml" filepath="$PROJECT_DIR$/music-player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicupload-api/musicupload-api.iml" filepath="$PROJECT_DIR$/musicupload-api/musicupload-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicupload-service/musicupload-service.iml" filepath="$PROJECT_DIR$/musicupload-service/musicupload-service.iml" />
+    </modules>
+  </component>
+</project>

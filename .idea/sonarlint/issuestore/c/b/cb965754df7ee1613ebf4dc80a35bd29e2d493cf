@@ -1,0 +1,12 @@
+
+z
+java:S1128"XRemove this unused import 'org.springframework.data.mongodb.repository.MongoRepository'.(ş§õæıÿÿÿÿ8 ÷©ç‘.
+o
+java:S1128"MRemove this unused import 'org.apache.kafka.clients.producer.ProducerRecord'.(ä°«¡üÿÿÿÿ8ÓÉë’.
+M
+java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8“¯ç‘.
+t
+java:S1128	"RRemove this unused import 'org.apache.kafka.common.header.internals.RecordHeader'.(‘—ÜÆøÿÿÿÿ8€òÈë’.
+]
+java:S1128
+"@Remove this unused import 'org.apache.kafka.common.utils.Bytes'.(µµƒ†8ÓÉë’.

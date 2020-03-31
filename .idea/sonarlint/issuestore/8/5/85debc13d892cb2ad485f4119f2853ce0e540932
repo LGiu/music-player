@@ -1,0 +1,34 @@
+
+X
+java:S1128"6Remove this unused import 'br.com.global.Util.Return'.(ÀÙä½üÿÿÿÿ8©²šâ‘.
+a
+java:S1128"?Remove this unused import 'org.springframework.http.MediaType'.(úŸİ¯şÿÿÿÿ8ÈÛºâ‘.
+i
+java:S2259I"LA "NullPointerException" could be thrown; "consumerRecord" is nullable here.(Ù˜ÿÑ8áÛâá‘.
+E
+java:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8áÛâá‘.
+f
+java:S2147E"DCombine this catch with the one at line 67, which has the same body.(åşŒóùÿÿÿÿ8áÛâá‘.
+E
+java:S1148;"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¢Ââá‘.
+E
+java:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…çáá‘.
+E
+java:S1148Q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‰ùåá‘.
+E
+java:S11489"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¢Ââá‘.
+E
+java:S1148D"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8áÛâá‘.
+f
+java:S2147:"DCombine this catch with the one at line 56, which has the same body.(åşŒóùÿÿÿÿ8¢Ââá‘.
+c
+java:S21428"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¢Ââá‘.
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(­Ü»8À¦àá‘.
+B
+java:S2116>"%Use "Arrays.toString(array)" instead.(­Ü»8À¦àá‘.
+e
+java:S2259>"HA "NullPointerException" could be thrown; "sendResult" is nullable here.(­Ü»8¢Ââá‘.
+c
+java:S2142C"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8áÛâá‘.
+]
+java:S1128"@Remove this unused import 'org.apache.kafka.common.utils.Bytes'.(µµƒ†8¹ñçë’.

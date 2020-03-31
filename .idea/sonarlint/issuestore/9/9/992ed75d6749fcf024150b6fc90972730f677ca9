@@ -1,0 +1,7 @@
+
+v
+java:S1128"TRemove this unused import 'org.apache.kafka.common.serialization.BytesDeserializer'.(υΘμϊÿÿÿÿ8–χόβ‘.
+T
+java:S1874W"7Remove this use of "setReplyTimeout"; it is deprecated.(†§™8–χόβ‘.
+t
+java:S1128"RRemove this unused import 'org.apache.kafka.common.serialization.BytesSerializer'.(²Ξτÿÿÿÿÿ8–χόβ‘.

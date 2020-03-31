@@ -1,0 +1,10 @@
+
+E
+java:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŒÔûğ.
+z
+java:S1128
+"XRemove this unused import 'org.springframework.data.mongodb.repository.MongoRepository'.(ş§õæıÿÿÿÿ8ğå€ñ.
+M
+java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8ğå€ñ.
+c
+java:S2259+"FA "NullPointerException" could be thrown; "customer" is nullable here.(Ş¶ï8Ä¨ûò.
