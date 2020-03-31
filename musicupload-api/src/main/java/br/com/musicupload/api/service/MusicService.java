@@ -1,5 +1,6 @@
 package br.com.musicupload.api.service;
 
+import br.com.global.Util.Logs;
 import br.com.global.Util.Return;
 import br.com.global.service.ServiceGeneric;
 import br.com.musicupload.api.DTO.MusicDTO;
@@ -39,7 +40,7 @@ public class MusicService extends ServiceGeneric<MusicDTO> {
         try {
             bytes = new Bytes(musicDTO.getFile().getBytes());
         } catch (IOException e) {
-            e.printStackTrace();
+            Logs.error(this.getClass(), e.getMessage());
         }
 
         ProducerRecord<Bytes, Bytes> producerRecord = new ProducerRecord(requestTopic, bytes, bytes);

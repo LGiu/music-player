@@ -1,6 +1,7 @@
 package br.com.customer.api.service;
 
 import br.com.customer.api.DTO.CustomerDTO;
+import br.com.global.Util.Logs;
 import br.com.global.Util.Return;
 import br.com.global.service.ServiceGeneric;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -33,7 +34,7 @@ public class CustomerService extends ServiceGeneric<CustomerDTO> {
         try {
             jsonString = mapper.writeValueAsString(customerDTO);
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            Logs.error(this.getClass(), e.getMessage());
         }
 
         // montando o producer que ira ser enviado para o kafka
@@ -48,9 +49,9 @@ public class CustomerService extends ServiceGeneric<CustomerDTO> {
         try {
             sendResult = sendAndReceive.getSendFuture().get();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            Logs.error(this.getClass(), e.getMessage());
         } catch (ExecutionException e) {
-            e.printStackTrace();
+            Logs.error(this.getClass(), e.getMessage());
         }
         sendResult.getProducerRecord().headers().forEach(header -> System.out.println(header.key() + ":" + header.value().toString()));
 
@@ -58,15 +59,15 @@ public class CustomerService extends ServiceGeneric<CustomerDTO> {
         try {
             consumerRecord = sendAndReceive.get();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            Logs.error(this.getClass(), e.getMessage());
         } catch (ExecutionException e) {
-            e.printStackTrace();
+            Logs.error(this.getClass(), e.getMessage());
         }
         CustomerDTO customerDTOReturn = null;
         try {
             customerDTOReturn = mapper.readValue(consumerRecord.value(), CustomerDTO.class);
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            Logs.error(this.getClass(), e.getMessage());
         }
 
         return new Return<>(customerDTOReturn);
