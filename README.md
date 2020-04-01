@@ -1,11 +1,11 @@
-#Music Player with microservice architecture in Spring Boot, Apache Kafka and MongoDB
+## Music Player with microservice architecture in Spring Boot, Apache Kafka and MongoDB
 
 An application to register and listen music based on microservice architecture in Spring Boot, Apache Kafka and MongoDB.
 
 The objective of this project is not to seek the best organization or performance, but to create a functional example of how to use Spring Boot, Apache Kafka and MongoDB in a simple microservice architecture.
 __________
 
-#Features
+### Features
 - Register music band
 - Register music
 - Listener music
@@ -14,21 +14,21 @@ __________
 
 __________
 
-#Requirements
+### Requirements
 - Java 11
 - Apache Kafka
 - MongoDB
 
 __________
 
-#Initial setup instructions
+### Initial setup instructions
 1. Create MongoDB database with name 'musicplayer';
 2. Start all modules;
 3. Open Apache Kafka and change the 'max-request-size' of the 'requesttopicmusic_upload' and 'replytopicmusic_upload' topics to 50mb.
 
 __________
 
-#Use instructions
+### Use instructions
 - Request 1
 
 Customer
