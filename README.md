@@ -37,7 +37,9 @@ Type: Post
 
 Url: localhost:8090/customer
 
-Json Example: { "name": "Detonautas", "country": "Brazil", "musicStyle": "Rock" }
+Json Example: 
+    
+    { "name": "Detonautas", "country": "Brazil", "musicStyle": "Rock" }
 
 - Request 2
 
